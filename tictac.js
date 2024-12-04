@@ -65,7 +65,7 @@ const disableBoxes=()=>{
 
 const showWinner = (winner) =>{         //arrowfunction
     msg.innerText=`Congratulation, Winner is ${winner}`;
-    msgContainer.classList.remove("hide");      //as it is a class.from its classlist remove hide .
+    msgContainer.classList.remove("hide");      //as it is a class.from its classlist remove hide
     disableBoxes();     //function
 };
 
